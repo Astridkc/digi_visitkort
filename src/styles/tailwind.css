@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @plugin '@tailwindcss/typography';
 @plugin '@tailwindcss/forms';
@@ -7,6 +7,10 @@
 
 @theme {
   /* Her tilføjes theme variable // tokens */
+ 
+  --color-primary-blue: #0099ff;
+  --color-primary-orange: #fbc08e;
+  --color-primary-brown: #573939;
 }
 
 @layer base {
@@ -19,9 +23,7 @@
   }
 }
 
-@layer components{
-
+@layer components {
 }
-@layer utilities{
-  
+@layer utilities {
 }
